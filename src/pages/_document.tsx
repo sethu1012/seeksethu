@@ -23,7 +23,7 @@ class CustomDocument extends Document<ICustomDocumentProps> {
           />
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#2E3A49" />
-          <meta property="og:image" content="next-assets/avatar.svg" />
+          <meta property="og:image" content="/next-assets/avatar.svg" />
           <meta property="og:title" content="Sethuraman Srinivasan" />
           <meta property="og:type" content="website" />
           <meta
