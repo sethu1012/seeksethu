@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "nanoid": "^3.1.16",
-    "next": "^9.5.5",
+    "next": "^10.0.0",
     "next-pwa": "^3.1.5",
     "next-seo": "^4.14.1",
     "react": "^16.14.0",
