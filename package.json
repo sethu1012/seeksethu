@@ -9,7 +9,7 @@
     "serve": "next start"
   },
   "dependencies": {
-    "nanoid": "^3.1.18",
+    "nanoid": "^3.1.19",
     "next": "^10.0.3",
     "next-pwa": "^3.1.5",
     "next-seo": "^4.17.0",
