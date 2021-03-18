@@ -4018,10 +4018,10 @@ next-pwa@^5.0.2:
     workbox-webpack-plugin "^6.0.2"
     workbox-window "^6.0.2"
 
-next-seo@^4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.17.0.tgz#fb3dbe0ed7414aa9d83872ef5d8510980a6dae7e"
-  integrity sha512-/hnb3oq7bhi8s7bup7+Lm6VzzgRucj+JrWtp+dJiYs/04H0N/NhmE9MpepixQ16fFj6G/39JLYxhzsO/QZG/Kw==
+next-seo@^4.21.0:
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.21.0.tgz#60207e2e8b590d1c5959ee28ca307a8463b541c6"
+  integrity sha512-ww13ZJHk/FD8EBSLOEuQk+Sx1GoB4UQVZe4b5zlogICvDkSUq/SEL4HiPXoY8VR1jD7e1SM8MSIDHCiEZehjrQ==
 
 next-tick@~1.0.0:
   version "1.0.0"
