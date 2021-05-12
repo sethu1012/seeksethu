@@ -9,6 +9,17 @@ module.exports = withPWA({
     additionalManifestEntries: [{ url: '/', revision: nanoid() }],
     runtimeCaching: [
       {
+        urlPattern: "/",
+        handler: "NetworkFirst",
+        options: {
+          cacheName: "start-url",
+          expiration: {
+            maxEntries: 4,
+            maxAgeSeconds: 7 * 24 * 60 * 60 // 7 days
+          }
+        }
+      },
+      {
         urlPattern: /\.(?:jpg|jpeg|gif|png|svg|ico|webp|woff2)/i,
         handler: 'StaleWhileRevalidate',
         options: {
